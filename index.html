@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <span class="logo" style="margin-left: 50px;">
+         <a href="#">
+            <img src="./images/yahoo logo.png" alt="yahoo logo" class="logo">
+        </a>  
+        </span>
+        <span class="rgs">
+            <span class="mail">
+                    <img src="./images/envelope.svg" alt="mail icon" class="mail">
+            </span>
+            <span class="allsites">
+                <img src="./images/grid-3x3-gap-fill.svg" alt="" class="list">                
+            </span>
+            <span class="weather">
+                <video src="#" class="dna" autoplay type="video/mp4"></video>
+            </span>
+        </span>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="greet">
+                <h3 class="greetings">Good {% Greet %}</h3>
+                <h5 class="date"> Today is {% Date %}</h5>
+            </div>
+                <form action="https://in.search.yahoo.com/search;">
+                    <div class="src">
+                        <img src="./images/search.svg" alt="search" class="srci">
+                        <input type="search" name="p" placeholder="Searach the web" class="in"> 
+                        <div class="part"></div>
+                        <a href="#"><img src="./images/mic-fill.svg" alt="" class="mic"></a>
+                    </div>
+                </form>
+            <div class="suggestion">
+                <button class="dynamic"><span><img class="icons"  src="./images/ballot_FILL0_wght400_GRAD0_opsz48.svg" alt="Election" height="20px"></span>Election</button>
+                <button class="dynamic"><span><img class="icons"  src="./images/sports_cricket_FILL0_wght400_GRAD0_opsz48.svg" alt="IPL" height="20px"></span>IPL</button>
+                <button class="dynamic"><span><img class="icons"  src="./images/movie_FILL0_wght400_GRAD0_opsz48.svg" alt="Movies" height="20px" ></span>Movies</button>
+                <button class="dynamic"><span><img class="icons"  src="./images/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="Horoscope" height="20px"></span>Horoscope</button>
+            </div>
+            <center>
+            <div class="trending">
+                <div class="inTitle" style="text-align: left;">Trending Now</div>
+                <div class="links" style="text-align: left;">
+                    <div class="link">1.<a href="#"> K. Kavitha</a></div>
+                    <div class="link">2.<a href="#"> Arvind Kejriwal</a></div>
+                    <div class="link">3.<a href="#"> Lok Sabha Polls</a></div>
+                    <div class="link">4.<a href="#"> Mayawati</a></div>
+                    <div class="link">5.<a href="#"> Sarabjit Singh</a></div>
+                    <div class="link">6.<a href="#"> Iran-Israel Conflict</a></div>
+                    <div class="link">7.<a href="#"> Salman Khan</a></div>
+                    <div class="link">8.<a href="#"> Ranveer Singh</a></div>
+                    <div class="link">9.<a href="#"> Mitchell Starc</a></div>
+                    <div class="link">10.<a href="#"> IPL 2024</a></div>
+                </div>
+            </div>                
+            </center>
+
+        </div>
+    </main>
+    <hr>
+    <footer class="foot">
+        <a href="#"> Home</a>
+        <a href="#"> Privacy</a>
+        <a href="#"> Terms</a>
+        <a href="#"> Privacy dashboard</a>
+        <div class="foots">
+            <a href="#"><span class="set"><img src="./images/settings_FILL0_wght400_GRAD0_opsz48.svg" alt="settings" height="20px">Settings</span></a>
+        </div>
+    </footer>
+    <script src="./yahoo.js"></script>
+</body>
+
+</html>
